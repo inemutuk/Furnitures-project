@@ -1,0 +1,783 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+
+
+.wrapper .container1{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  position: relative;
+
+}
+
+.hero-image{
+  width: 90%;
+}
+
+ul{
+  display: flex;
+  position: absolute;
+  top: 20%;
+  align-items: center;
+
+ 
+
+
+}
+
+ul li{
+  margin: 20px;
+  color: white;
+  font-size: 1.7vw;
+}
+
+ul .box1{
+  font-size: 2vw;
+  
+}
+
+.banner{
+  margin: 0px 59px;
+}
+
+ 
+
+.banner h2{
+font-size: 4vw;
+margin-bottom: 30px;
+
+}
+
+.banner p{
+  font-size: 1.6vw;
+  margin-bottom: 30px;
+  line-height: 40px;
+  opacity: 50%;
+  
+  }
+
+
+section{
+  border: 1px solid #097;
+  display: flex;
+}
+
+.para {
+display: flex;
+font-size: 3vw;
+}
+
+.hero-image2{
+  width: 20%;
+}
+
+.main{
+  padding: 20px 40px;
+
+
+}
+
+.main h2{
+font-size: 2.3vw;
+margin-bottom: 10px;
+
+
+}
+
+.main p{
+  font-size: 1.5vw;
+  line-height: 30px;
+  
+  
+  }
+
+  @media screen and (max-width: 1084px){
+    .wrapper .container1{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-image{
+      width: 80%;
+    }
+
+    .banner{
+      margin: 0px 20px;
+    }
+
+    .banner h2{
+      font-size: 4vw;
+      margin-bottom: 30px;
+      
+      }
+
+    .banner p{
+      font-size: 1.7vw;
+      margin-bottom: 30px;
+      line-height: 30px;
+      opacity: 50%;
+      
+      }
+
+      section{
+        border: 1px solid #097;
+        display: flex;
+     
+      }
+
+      section .hero1{
+      margin-right: 20px;
+      width: 30%;
+     
+      }
+
+      section .hero2{
+      width: 30%;
+        
+         }
+
+  
+      
+      .main h2{
+      font-size: 1.8vw;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      
+      }
+      
+      .main p{
+        font-size: 1.9vw;
+        line-height: 34px;
+      
+        
+        
+        
+        }
+    
+  }
+
+
+  /* Another  */
+
+  @media screen and (max-width: 1024px){
+    .wrapper .container1{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .hero-image{
+      width: 82%;
+    }
+
+    .banner{
+      margin: 0px 20px;
+    }
+
+    .banner h2{
+      font-size: 4vw;
+      margin-bottom: 30px;
+      
+      }
+
+    .banner p{
+      font-size: 1.9vw;
+      margin-bottom: 30px;
+      line-height: 30px;
+      opacity: 50%;
+      
+      }
+
+      section{
+        border: 1px solid #097;
+        display: flex;
+        justify-content: space-between;
+     
+      }
+
+      section .hero1{
+       width:  30%;
+   
+    
+     
+      }
+
+      section .hero2{
+      width:  30%;
+        
+         }
+
+         .main{
+         padding: 10px 20px;
+         }
+
+  
+      
+      .main h2{
+      font-size: 2.2vw;
+      margin-bottom: 10px;
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      
+      
+      }
+      
+      .main p{
+        font-size: 1.8vw;
+        line-height: 35px;
+        
+        
+        
+        }
+
+    
+    
+  }
+
+      /* Another media query here at this point */
+
+      @media screen and (min-width :900px) and (max-width: 922px){
+        .wrapper .container1{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .para {
+          display: flex;
+          font-size: 2vw;
+          flex-direction: row;
+          display: none;
+          }
+          
+          .hero-image2{
+            width: 15%;
+            margin-left: 50px;
+          }
+    
+        .hero-image{
+          width: 98%;
+        }
+    
+        .banner{
+          margin: 0px 20px;
+        }
+    
+        .banner h2{
+          font-size: 4vw;
+          margin-bottom: 30px;
+          
+          }
+    
+        .banner p{
+          font-size: 2.9vw;
+          margin-bottom: 30px;
+          line-height: 35px;
+          opacity: 50%;
+          
+          }
+    
+          section{
+            border: 1px solid #097;
+            display: flex;
+            justify-content: space-between;
+         
+          }
+    
+          section .hero1{
+           width:  30%;
+       
+        
+         
+          }
+    
+          section .hero2{
+          width:  30%;
+            
+             }
+    
+             .main{
+             padding: 10px 20px;
+             }
+    
+      
+          
+          .main h2{
+          font-size: 2.4vw;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          
+          
+          }
+          
+          .main p{
+            font-size: 2.3vw;
+            line-height: 30px;
+            font-family : 'Times New Roman', Times, serif;
+            
+            
+            
+            }
+    
+        
+        
+      }
+
+
+
+       /* Another media query here at this point */
+
+       @media screen and (min-width : 880px) and (max-width: 900px){
+        .wrapper .container1{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .para {
+          display: flex;
+          font-size: 2vw;
+          flex-direction: row;
+          display: none;
+          }
+          
+          .hero-image2{
+            width: 15%;
+            margin-left: 50px;
+          }
+    
+        .hero-image{
+          width: 100%;
+        }
+    
+        .banner{
+          margin: 0px 20px;
+        }
+    
+        .banner h2{
+          font-size: 4vw;
+          margin-bottom: 30px;
+          
+          }
+    
+        .banner p{
+          font-size: 2.9vw;
+          margin-bottom: 30px;
+          line-height: 35px;
+          opacity: 50%;
+          
+          }
+    
+          section{
+            border: 1px solid #097;
+            display: flex;
+            justify-content: space-between;
+         
+          }
+    
+          section .hero1{
+           width:  30%;
+       
+        
+         
+          }
+    
+          section .hero2{
+          width:  30%;
+            
+             }
+    
+             .main{
+             padding: 10px 20px;
+             }
+    
+      
+          
+          .main h2{
+          font-size: 2.4vw;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          
+          
+          }
+          
+          .main p{
+            font-size: 2.3vw;
+            line-height: 30px;
+            font-family : 'Times New Roman', Times, serif;
+            
+            
+            
+            }
+    
+        
+        
+      }
+
+
+      /* TABLET VIEW  */
+
+      @media screen and (min-width :768px) and (max-width: 880px){
+        .wrapper .container1{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        ul{
+          display: flex;
+          position: absolute;
+          top: 6%;
+          align-items: center;
+          left: 9%;
+        
+         
+        
+        
+        }
+        
+        ul li{
+          margin: 20px;
+          color: white;
+          font-size: 4vw;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        
+        ul .box1{
+          font-size: 5vw;
+          font-family: Arial;
+          font-weight: 700px;
+          
+        }
+
+        .para {
+          display: flex;
+          font-size: 2vw;
+          flex-direction: row;
+         
+          }
+          
+          .hero-image2{
+            width: 15%;
+            margin-left: 50px;
+          }
+    
+        .hero-image{
+          width: 100%;
+        }
+    
+        .banner{
+          margin: 0px 20px;
+        }
+    
+        .banner h2{
+          font-size: 5vw;
+          margin-bottom: 30px;
+          text-align: center;
+          padding-top: 30px;
+          
+          }
+    
+        .banner p{
+          font-size: 4vw;
+          margin-bottom: 30px;
+          line-height: 50px;
+          opacity: 50%;
+          
+          }
+    
+          section{
+            border: 1px solid #097;
+            display: flex;
+          flex-direction: column;
+         
+          }
+    
+          section .hero1{
+           width:  100%;
+       
+        
+         
+          }
+    
+          section .hero2{
+          width:  100%;
+            
+             }
+    
+             .main{
+             padding: 10px 20px;
+             }
+    
+      
+          
+          .main h2{
+          font-size: 3vw;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 20px;
+          
+          
+          }
+          
+          .main p{
+            font-size: 2.9vw;
+            line-height: 50px;
+            font-family : 'Times New Roman', Times, serif;
+            
+            
+            
+            }
+    
+        
+        
+      }
+
+
+      @media screen and (max-width: 768px){
+        .wrapper .container1{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        ul{
+          display: flex;
+          position: absolute;
+          top: 6%;
+          align-items: center;
+          left: 9%;
+        
+         
+        
+        
+        }
+        
+        ul li{
+          margin: 20px;
+          color: white;
+          font-size: 4vw;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        
+        ul .box1{
+          font-size: 5vw;
+          font-family: Arial;
+          font-weight: 700px;
+          
+        }
+
+        .para {
+          display: flex;
+          font-size: 2vw;
+          flex-direction: row;
+         
+          }
+          
+          .hero-image2{
+            width: 15%;
+            margin-left: 50px;
+          }
+    
+        .hero-image{
+          width: 100%;
+        }
+    
+        .banner{
+          margin: 0px 20px;
+        }
+    
+        .banner h2{
+          font-size: 5vw;
+          margin-bottom: 30px;
+          text-align: center;
+          padding-top: 30px;
+          
+          }
+    
+        .banner p{
+          font-size: 4vw;
+          margin-bottom: 30px;
+          line-height: 50px;
+          opacity: 50%;
+          
+          }
+    
+          section{
+            border: 1px solid #097;
+            display: flex;
+          flex-direction: column;
+         
+          }
+    
+          section .hero1{
+           width:  100%;
+       
+        
+         
+          }
+    
+          section .hero2{
+          width:  100%;
+            
+             }
+    
+             .main{
+             padding: 10px 20px;
+             }
+    
+      
+          
+          .main h2{
+          font-size: 3vw;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 20px;
+          
+          
+          }
+          
+          .main p{
+            font-size: 2.9vw;
+            line-height: 50px;
+            font-family : 'Times New Roman', Times, serif;
+            
+            
+            
+            }
+    
+        
+        
+      }
+
+
+      /* Mobile device view */
+
+      @media screen and (max-width: 522px){
+        .wrapper .container1{
+          display: grid;
+          grid-template-columns: 1fr;
+        }
+
+        ul{
+          display: flex;
+          position: absolute;
+          top: 7%;
+          align-items: center;
+          left: 7%;
+        
+         
+        
+        
+        }
+        
+        ul li{
+          margin: 10px;
+          color: white;
+          font-size: 5vw;
+          font-family: 'Times New Roman', Times, serif;
+        }
+        
+        ul .box1{
+          font-size: 5vw;
+          font-family: Arial;
+          font-weight: 700px;
+          
+        }
+
+        .para {
+          display: flex;
+          font-size: 2vw;
+          flex-direction: row;
+          display: none;
+         
+          }
+          
+          .hero-image2{
+            width: 15%;
+            margin-left: 50px;
+          }
+    
+        .hero-image{
+          width: 100%;
+        }
+    
+        .banner{
+          margin: 0px 20px;
+        }
+    
+        .banner h2{
+          font-size: 6vw;
+          margin-bottom: 20px;
+          text-align: center;
+          padding-top: 30px;
+          
+          }
+    
+        .banner p{
+          font-size: 4vw;
+          margin-bottom: 2%;
+          line-height: 50px;
+          opacity: 50%;
+          
+          }
+    
+          section{
+            border: 1px solid #097;
+            display: flex;
+          flex-direction: column;
+         
+          }
+    
+          section .hero1{
+           width:  100%;
+       
+        
+         
+          }
+    
+          section .hero2{
+          width:  100%;
+            
+             }
+    
+             .main{
+             padding: 10px 20px;
+             }
+    
+      
+          
+          .main h2{
+          font-size: 6vw;
+          margin-bottom: 10px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          padding-top: 20px;
+          
+          
+          }
+          
+          .main p{
+            font-size: 4.6vw;
+            line-height: 50px;
+            font-family : 'Times New Roman', Times, serif;
+            padding: 0px 20px;
+            
+            
+            
+            }
+    
+        
+        
+      }
+
+
+
+
+
+       
